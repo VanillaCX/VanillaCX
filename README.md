@@ -1,0 +1,44 @@
+# ExpressTemplate
+
+## Required ENV variables:
+1 - COSMOS_CONNECTION_STRING (Query, Store)
+2 - STORE_DATABASE (Store)
+3 - STORE_COLLECTION (Store)
+4 - STORE_SESSION_SECRET (Store)
+5 - STORE_COOKIE_DOMAIN (Store)
+
+6 - VANILLA_ENV (Store)
+
+
+
+
+
+
+Identity
+    KEY_VALUT_URL
+    IDENTITY_DATABASE
+
+Query
+    TEST_DATABASE
+    TEST_COLLECTION
+    COSMOS_CONNECTION_STRING
+
+Matter
+    TEST_DATABASE
+    TEST_COLLECTION
+    SESSION_USER_ID ( to be replaced with ID from Database for connected user)
+    MATTER_DATABASE
+
+Store
+    VANILLA_ENV
+    COSMOS_CONNECTION_STRING
+    SESSION_DATABASE
+    SESSION_COLLECTION
+    STORE_SECRET
+    STORE_COOKIE_DOMAIN
+
+MatterCX
+    PORT
+
+IdentityCX
+    PORT
